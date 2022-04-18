@@ -1,17 +1,51 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-app"
-		}
-	}],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
-		"app-plus": {
-			"background": "#efeff4"
-		}
-	}
+  "pages": [{
+    "path": "pages/home/home",
+    "style": {
+    }
+
+  }, {
+    "path": "pages/life/life",
+    "style": {
+    }
+
+  }, {
+    "path": "pages/my/my",
+    "style": {
+    }
+
+  }],
+  "tabBar": {
+      // "selectedColor": "#55ff00",
+      "backgroundColor": "255,255,255",
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "text": "民宿",
+          "iconPath": "static/tab_icon/home.png",
+          "selectedIconPath": "static/tab_icon/home.png"
+        },
+        {
+          "pagePath": "pages/life/life",
+          "text": "生活",
+          "iconPath": "static/tab_icon/life.png",
+          "selectedIconPath": "static/tab_icon/life.png"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "static/tab_icon/my.png",
+          "selectedIconPath": "static/tab_icon/my.png"
+        }
+      ]
+    },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "轻奢宿语",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
 }
